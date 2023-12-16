@@ -1,0 +1,9 @@
+baseurl = "https://www.thanwarin.com/"
+title = "3 : Thanwarin"
+theme = "thanwarin"
+languageCode = "th-th"
+pygmentsCodeFences = true
+
+[params]
+  sitename = "3 : Thanwarin"
+  description = "I type things, run and (╯°□°)╯︵ ≺ǝlqɐʇ/≻"

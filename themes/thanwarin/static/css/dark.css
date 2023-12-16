@@ -1,0 +1,22 @@
+*,
+#nav h1 a {
+  color: #e8eaed;
+}
+
+body {
+  background: #202124;
+}
+
+pre,
+code {
+  background-color: #262626;
+}
+
+#sub-header,
+.date {
+  color: #bababa;
+}
+
+hr {
+  background: #ebebeb;
+}

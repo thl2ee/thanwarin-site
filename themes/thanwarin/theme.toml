@@ -1,0 +1,12 @@
+name = 'thanwarin'
+license = 'MIT'
+licenselink = 'https://github.com/thl2ee/thanwarin-site/blob/master//LICENSE'
+homepage = 'https://thanwarin.com'
+min_version = '0.1'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+
+[author]
+  name = Thanwarin Pisanprechatam"
+  homepage = 'https://thanwarin.com'

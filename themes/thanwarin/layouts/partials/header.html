@@ -1,0 +1,15 @@
+<section id="nav">
+  <h1>
+    <a class="h-card" href="/">{{ .Site.Params.sitename }}</a>
+  </h1>
+  <p>{{ .Site.Params.description }}</p>
+
+  <ul>
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+    <li>
+      <b><a id="dark-mode-toggle" class="dark-option">Toggle Dark Mode</a></b>
+    </li>
+  </ul>
+</section>
