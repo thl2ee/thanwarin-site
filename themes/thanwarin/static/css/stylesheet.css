@@ -211,10 +211,20 @@ h2 {
 
 li {
   margin-left: 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 ul li {
   margin-left: 5px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  width: 100%;
 }
 
 ul li {

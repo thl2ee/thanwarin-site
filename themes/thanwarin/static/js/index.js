@@ -1,6 +1,6 @@
 var toggle = document.getElementById("dark-mode-toggle");
 var darkTheme = document.getElementById("dark-mode-theme");
-var savedTheme = localStorage.getItem("dark-mode-storage") || "dark";
+var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
 toggleStyle(savedTheme);
 
 toggle.addEventListener("click", () => {

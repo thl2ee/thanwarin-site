@@ -5,10 +5,11 @@
   <p>{{ .Site.Params.description }}</p>
 
   <ul>
-    {{ range .Site.Menus.main }}
+    <!-- {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end }}
-    <li>
+    {{ end }} -->
+    <li><a href="/">About</a></li>
+    <li style="white-space: nowrap">
       <b><a id="dark-mode-toggle" class="dark-option">Toggle Dark Mode</a></b>
     </li>
   </ul>
